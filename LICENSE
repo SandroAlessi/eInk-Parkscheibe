@@ -1,0 +1,34 @@
+NUTZUNGSBEDINGUNGEN FÜR DIE SOFTWARE UND BAUANLEITUNG „DIGITALE PARKSCHEIBE“
+Urheberrecht (c) 2026 Sandro Alessi
+Kontakt: sandro.alessi@chrissanag.de
+
+§ 1 Gegenstand der Nutzungsbedingungen
+1. Der Entwickler (Sandro Alessi) stellt interessierten Nutzern Quellcode, begleitende Software-Skripte sowie zugehörige Dokumentationen (zusammenfassend nachfolgend „Software“ genannt) zur Verfügung.
+2. Mit dem Download, dem Kopieren oder der anderweitigen Nutzung der Software stimmt der Nutzer den Bestimmungen dieses Vertrages vollumfänglich zu. Dieser Vertrag stellt eine unentgeltliche Überlassung (§ 516 BGB) dar.
+
+§ 2 Nutzungsrechte (Lizenzgewährung)
+1. Der Entwickler räumt dem Nutzer ein einfaches, räumlich und zeitlich unbeschränktes Recht ein, die Software für private, nicht-kommerzielle Zwecke zu nutzen, zu vervielfältigen und zu modifizieren.
+2. Jede Form der kommerziellen, gewerblichen oder geschäftsmäßigen Verwertung (z. B. der Verkauf von digitalen Parkscheiben, der Vertrieb der Software, der Einbau in kostenpflichtige Produkte) ist verboten. Eine gewerbliche Nutzung bedarf in jedem Fall der vorherigen, ausdrücklichen und schriftlichen Zustimmung des Urhebers.
+
+§ 3 Pflicht zur Urheberbenennung (Namensnennung)
+Macht der Nutzer von seinem Recht auf Vervielfältigung oder Modifikation Gebrauch und gibt die Software (im Original oder in veränderter Form) an Dritte weiter, ist er verpflichtet, den Urheber („Sandro Alessi“) sowie einen Verweis auf das ursprüngliche Projekt deutlich und angemessen sichtbar zu benennen.
+
+§ 4 Besondere Hinweise zum Verwendungszweck (Warnhinweis)
+1. Dem Nutzer ist explizit bekannt, dass es sich bei dem Projekt um ein privates Bastel-/Hobby-Projekt handelt.
+2. Das aus der Software und empfohlener Hardware resultierende Gerät ist keine offiziell zugelassene Parkscheibe im Sinne des § 13 Abs. 2 Nr. 2 StVO (Bild 318).
+3. Das Gerät verfügt über keine Bauartgenehmigung oder Typgenehmigung nach § 22a Abs. 1 Nr. 22 StVZO und besitzt keine Zulassung durch das Kraftfahrt-Bundesamt (KBA). 
+4. Der Einsatz des Geräts im Bereich der Straßenverkehrsordnung (StVO) ist rechtlich unzulässig.
+
+§ 5 Gewährleistung und Haftungsausschluss
+1. Die Software wird unentgeltlich und in der vorliegenden Form („wie besehen“) überlassen. Der Entwickler übernimmt keinerlei Gewährleistung, insbesondere nicht für die Marktgängigkeit, die fehlerfreie Funktion oder die Eignung der Software für einen bestimmten Zweck. 
+2. Der Nutzer setzt die Software und daraus ggf. entstehende physische Geräte ausschließlich auf eigenes Risiko ein.
+3. Die Haftung des Entwicklers auf Schadensersatz, gleich aus welchem Rechtsgrund, wird auf Vorsatz und grobe Fahrlässigkeit beschränkt (§ 521 BGB).
+4. Für leichte und mittlere Fahrlässigkeit haftet der Entwickler nicht. Dies schließt insbesondere, aber nicht ausschließlich, die Haftung für mittelbare Schäden und Folgeschäden aus, wie beispielsweise:
+   a) Verwarnungsgelder, Bußgelder, Abschleppkosten oder rechtliche Auseinandersetzungen infolge fehlerhafter Zeiten, falscher Bedienung oder fehlender behördlicher Zulassungen.
+   b) Schäden an elektronischer Hardware (z. B. am Raspberry Pi Pico, Displays, Akkus) oder daran angeschlossenen Systemen.
+   c) Datenverluste, Software-Bugs oder Hardware-Defekte.
+5. Die Haftungsbeschränkung in § 5 Abs. 3 gilt nicht für Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit.
+
+§ 6 Schlussbestimmungen (Salvatorische Klausel)
+1. Es gilt ausschließlich das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts (CISG).
+2. Sollten einzelne Bestimmungen dieser Nutzungsbedingungen unwirksam oder undurchführbar sein oder werden, so bleibt die Wirksamkeit der übrigen Bestimmungen hiervon unberührt. An die Stelle der unwirksamen oder undurchführbaren Bestimmung soll diejenige wirksame und durchführbare Regelung treten, deren Wirkungen der wirtschaftlichen und rechtlichen Zielsetzung am nächsten kommen, die der Entwickler mit der unwirksamen Bestimmung verfolgt hat.

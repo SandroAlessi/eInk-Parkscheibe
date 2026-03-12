@@ -1,0 +1,25 @@
+# === Python / MicroPython ===
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Projektspezifisch ===
+.micropico
+
+# === Zubehoer: Grosse/unwichtige Dateien ausschliessen ===
+Zubehör/Parkscheibe.psd
+Zubehör/Anzeige.psb
+Zubehör/*.uf2
+Zubehör/Test.png
+Zubehör/Wirr.png
+Zubehör/test_hud_layout.py
