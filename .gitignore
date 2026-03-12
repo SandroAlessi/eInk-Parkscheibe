@@ -23,3 +23,5 @@ Zubehör/*.uf2
 Zubehör/Test.png
 Zubehör/Wirr.png
 Zubehör/test_hud_layout.py
+Entwicklungstools/Firmware/
+*.uf2
