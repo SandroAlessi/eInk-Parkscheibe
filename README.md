@@ -2,6 +2,10 @@
 
 **Digitale Parkscheibe mit e-Ink Display — StVO-konform, WLAN-gesteuert, mit verstecktem DOOM-Easteregg.**
 
+<p align="center">
+  <img src="Medien (nur für GitHub)/Parkscheibe.gif" alt="Parkscheibe in Aktion" width="600">
+</p>
+
 Ein MicroPython-Projekt für den Raspberry Pi Pico W (und Pico 2 W), das eine echte Parkscheibe mit 3,7" e-Ink Display simuliert. Die Ankunftszeit wird automatisch über das Smartphone synchronisiert — ganz ohne Knöpfe oder manuelle Einstellung.
 
 ---
@@ -50,6 +54,10 @@ Ein MicroPython-Projekt für den Raspberry Pi Pico W (und Pico 2 W), das eine ec
 | **Display** | [Waveshare 3.7" e-Paper für Pico](https://www.waveshare.com/pico-epaper-3.7.htm) (480×280 px) | Schwarz/Weiß, 4 Grayscale |
 | **Parkscheiben-Gehäuse** | [Elasto Parkscheibe Profi](https://www.elasto.de/Parkscheibe-Profi/04248003-00000) | Als Basis-Gehäuse für den Einbau der Elektronik verwendet |
 | **Stromversorgung** | USB-C / Powerbank | 5V, mind. 500mA |
+
+<p align="center">
+  <img src="Medien (nur für GitHub)/Rückseite.jpg" alt="Rückseite der Parkscheibe mit Hardware" width="600">
+</p>
 
 ### Pinbelegung
 
@@ -295,6 +303,10 @@ Die Implementierung befindet sich in der Funktion `get_stvo_time()` in `main.py`
 ## 🎮 DOOM Easteregg
 
 Die Parkscheibe enthält ein verstecktes DOOM-ähnliches Spiel, das direkt auf dem e-Ink Display läuft!
+
+<p align="center">
+  <img src="Medien (nur für GitHub)/Doom.jpg" alt="DOOM Easteregg auf dem e-Ink Display" width="600">
+</p>
 
 ### Aktivierung
 
