@@ -200,7 +200,7 @@ Nach der Synchronisation zeigt das Display die korrekte Ankunftszeit:
 - Automatische Updates bei `:00` und `:30` (konfigurierbar)
 
 #### 🔄 Demo-Modus (Automatisch)
-- Durchläuft alle Uhrzeiten im 30-Minuten-Takt
+- Wechselt ca. alle 5-10 Sekunden die angezeigte Uhrzeit im 30-Minuten-Takt
 - Ideal zum Testen und Vorführen
 
 #### ✏️ Demo-Modus (Manuell)
