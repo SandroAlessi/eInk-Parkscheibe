@@ -200,6 +200,10 @@ Das Web-Interface sollte sich als **Captive Portal** automatisch öffnen. Falls 
 
 Auf **„Zeit synchronisieren"** tippen. Die aktuelle Uhrzeit des Smartphones wird an den Pico übertragen. Die Parkscheibe zeigt danach automatisch die korrekte Ankunftszeit gemäß StVO an.
 
+<p align="center">
+  <img src="Medien (nur für GitHub)/Normal_Web.jpg" alt="Web-Interface: Zeit synchronisieren" width="400">
+</p>
+
 ### Betriebsmodi
 
 #### 🅿️ Parkscheiben-Modus (Standard)
@@ -210,6 +214,10 @@ Nach der Synchronisation zeigt das Display die korrekte Ankunftszeit:
 #### 🔄 Demo-Modus (Automatisch)
 - Wechselt ca. alle 5-10 Sekunden die angezeigte Uhrzeit im 30-Minuten-Takt
 - Ideal zum Testen und Vorführen
+
+<p align="center">
+  <img src="Medien (nur für GitHub)/Demo_Web.jpg" alt="Web-Interface: Demo-Modus" width="400">
+</p>
 
 #### ✏️ Demo-Modus (Manuell)
 - Beliebige Uhrzeit per Schieberegler einstellen
@@ -306,6 +314,10 @@ Die Parkscheibe enthält ein verstecktes DOOM-ähnliches Spiel, das direkt auf d
 
 <p align="center">
   <img src="Medien (nur für GitHub)/Doom.jpg" alt="DOOM Easteregg auf dem e-Ink Display" width="600">
+</p>
+
+<p align="center">
+  <img src="Medien (nur für GitHub)/Doom_Web.jpg" alt="Web-Interface: DOOM Steuerung" width="400">
 </p>
 
 ### Aktivierung
