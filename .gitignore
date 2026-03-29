@@ -16,12 +16,6 @@ build/
 # === Projektspezifisch ===
 .micropico
 
-# === Zubehoer: Grosse/unwichtige Dateien ausschliessen ===
-Zubehör/Parkscheibe.psd
-Zubehör/Anzeige.psb
-Zubehör/*.uf2
-Zubehör/Test.png
-Zubehör/Wirr.png
-Zubehör/test_hud_layout.py
+# === Entwicklungstools: Unwichtige Dateien ausschliessen ===
 Entwicklungstools/Firmware/
 *.uf2

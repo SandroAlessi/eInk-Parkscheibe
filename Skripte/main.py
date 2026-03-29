@@ -201,7 +201,13 @@ def main():
             last_dst_check_hour = h if not changed else -1
             return changed
 
-        def get_stvo_time(h, m):
+        def get_stvo_time(h, m, u_mode=1):
+            if u_mode == 0:
+                m -= 5
+                if m < 0:
+                    m += 60
+                    h = (h - 1) % 24
+                    
             # § 13 Abs. 2 StVO: Auf die naechste angefangene halbe Stunde aufrunden
             # Bei Ankunft um hh:00 zeigt die Parkscheibe sofort hh:30 an
             if m < 30:
@@ -302,7 +308,7 @@ def main():
                 disp_h, disp_m = state.get('demo_manual_h', 0), state.get('demo_manual_m', 0)
             else:
                 # Normaler Parkscheiben-Betrieb
-                disp_h, disp_m = get_stvo_time(hour, minute)
+                disp_h, disp_m = get_stvo_time(hour, minute, state.get('update_mode', 1))
                 
             if hasattr(epd, 'wdt') and epd.wdt: epd.wdt.feed()
             render_dial(epd, disp_h, disp_m, partial=True)
@@ -341,16 +347,22 @@ def main():
 
         # A. Taeglicher Voll-Refresh um 03:33 (Display-Reinigung)
         if hour == FULL_REFRESH_HOUR and minute == FULL_REFRESH_MINUTE and last_full_refresh_day != day:
+            calc_mode = state.get('update_mode', 1)
+            disp_h, disp_m = get_stvo_time(hour, minute, calc_mode)
+            
             epd.init()  # Hardware-Reset + Clear
             if hasattr(epd, 'wdt') and epd.wdt: epd.wdt.feed()
-            render_dial(epd, hour, minute, partial=False)
+            render_dial(epd, disp_h, disp_m, partial=False)
             if hasattr(epd, 'wdt') and epd.wdt: epd.wdt.feed()
             # Danach sofort in Partial zurueck
-            render_dial(epd, hour, minute, partial=True)
+            render_dial(epd, disp_h, disp_m, partial=True)
             if hasattr(epd, 'wdt') and epd.wdt: epd.wdt.feed()
+            
+            state['disp_h'] = disp_h
+            state['disp_m'] = disp_m
             last_full_refresh_day = day
             last_update_minute = minute
-            log.info("MAIN", "Daily Full-Refresh ausgefuehrt um %02d:%02d", hour, minute)
+            log.info("MAIN", "Daily Full-Refresh um %02d:%02d -> Stelle Anzeige wieder auf %02d:%02d", hour, minute, disp_h, disp_m)
             return
 
         # B. Zeitbasiertes Update
@@ -364,7 +376,7 @@ def main():
             should_update = False
 
         if should_update:
-            disp_h, disp_m = get_stvo_time(hour, minute)
+            disp_h, disp_m = get_stvo_time(hour, minute, update_mode)
             if hasattr(epd, 'wdt') and epd.wdt: epd.wdt.feed()
             render_dial(epd, disp_h, disp_m, partial=True)
             if hasattr(epd, 'wdt') and epd.wdt: epd.wdt.feed()
