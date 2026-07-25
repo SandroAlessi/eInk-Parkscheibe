@@ -1,6 +1,8 @@
 # 🅿️ Parkscheibe
 
-**Digitale Parkscheibe mit e-Ink Display — Erscheinungsbild StVO-konform, WLAN-gesteuert, mit verstecktem DOOM-Easteregg.**
+*Digitale Parkscheibe mit e-Ink Display — Erscheinungsbild StVO-konform**, WLAN-gesteuert, mit verstecktem DOOM-Easteregg.*
+
+*siehe Hinweis unter [StVO-Konformität](#-stvo-konformität)!
 
 <p align="center">
   <img src="Medien (nur für GitHub)/Parkscheibe.gif" alt="Parkscheibe in Aktion" width="600">
