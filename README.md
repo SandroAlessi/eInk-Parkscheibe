@@ -1,6 +1,6 @@
 # 🅿️ Parkscheibe
 
-**Digitale Parkscheibe mit e-Ink Display — StVO-konform, WLAN-gesteuert, mit verstecktem DOOM-Easteregg.**
+**Digitale Parkscheibe mit e-Ink Display — Erscheinungsbild StVO-konform, WLAN-gesteuert, mit verstecktem DOOM-Easteregg.**
 
 <p align="center">
   <img src="Medien (nur für GitHub)/Parkscheibe.gif" alt="Parkscheibe in Aktion" width="600">
@@ -30,7 +30,7 @@ Ein MicroPython-Projekt für den Raspberry Pi Pico W (und Pico 2 W), das eine ec
 | Funktion | Beschreibung |
 |---|---|
 | **Zeitsynchronisation** | Automatische Zeitübernahme vom Smartphone per WLAN |
-| **StVO-konform** | Aufrundung auf die nächste halbe Stunde gemäß § 13 Abs. 2 StVO |
+| **Eingeschränkt StVO-konform** | Erscheinungsbild und Aufrundung auf die nächste halbe Stunde gemäß § 13 Abs. 2 StVO. Keine Zulassung! |
 | **e-Ink Display** | Energiesparendes 3,7" Schwarz/Weiß-Display — lesbar bei Sonnenlicht |
 | **WLAN Access-Point** | Eigener Hotspot „Parkscheibe" — kein Router nötig |
 | **Captive Portal** | Web-Interface öffnet sich automatisch beim Verbinden |
@@ -286,7 +286,7 @@ parkscheibe/
 
 ## ⚖️ StVO-Konformität
 
-Die Parkscheibe implementiert die Rundungsregel nach **§ 13 Abs. 2 StVO**:
+Die Parkscheibe implementiert die Rundungsregel nach **§ 13 Abs. 2 StVO** folgendermaßen:
 
 > *Die Ankunftszeit ist auf die nächste halbe Stunde aufzurunden, die nach der Ankunft beginnt.*
 
